@@ -12,20 +12,20 @@ import java.util.ArrayList;
  * @author Sofy
  */
 abstract class RealCharacter implements Character{
-    protected String id;
-    protected String name;
-    protected int maxHp;
-    protected int maxMp;
-    protected int hp;
-    protected int mp;
-    protected int strength;
-    protected int defence;
-    protected int speed;
-    protected GameMapPosition pos;
-    protected ArrayList<Observer> observers;
-    protected ArrayList<ObjectOrAbility> usables;
-    protected boolean current;
-    protected boolean alive;
+    String id;
+    String name;
+    int maxHp;
+    int maxMp;
+    int hp;
+    int mp;
+    int strength;
+    int defence;
+    int speed;
+    GameMapPosition pos;
+    ArrayList<Observer> observers;
+    ArrayList<ObjectOrAbility> usables;
+    boolean current;
+    boolean alive;
     
     RealCharacter(){
         observers = new ArrayList();

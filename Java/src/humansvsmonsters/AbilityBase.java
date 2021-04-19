@@ -10,7 +10,7 @@ package humansvsmonsters;
  * @author Sofy
  */
 abstract class AbilityBase extends ObjectOrAbility{
-    protected int cost;
+    int cost;
     
     @Override public String getLabel(){
         return name + " " + cost + " MP";

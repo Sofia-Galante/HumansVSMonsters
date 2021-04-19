@@ -10,7 +10,7 @@ package humansvsmonsters;
  * @author Sofy
  */
 abstract class ObjectOrAbility {
-    protected String name;
+    String name;
     public abstract void use(Character owner, Character receiver);
     public abstract boolean canUse(Character c);
     

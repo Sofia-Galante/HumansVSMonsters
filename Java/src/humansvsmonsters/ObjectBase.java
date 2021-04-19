@@ -10,7 +10,7 @@ package humansvsmonsters;
  * @author Sofy
  */
 abstract class ObjectBase extends ObjectOrAbility{
-    protected int quantity;
+    int quantity;
     
     @Override public String getLabel(){
         return name + " x" + quantity;
